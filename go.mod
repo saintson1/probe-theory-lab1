@@ -1,0 +1,3 @@
+module prob-theory-lab1
+
+go 1.25.0
