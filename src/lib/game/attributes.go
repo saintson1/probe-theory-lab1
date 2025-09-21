@@ -44,7 +44,7 @@ func InitStartGame(PlayerInd int) GameState {
 		PlayerInd: PlayerInd,
 		Players: []Player{
 			Player{
-				Point: 25,
+				Point: 21,
 				Currency: []int{
 					sell4,
 					sell2,

@@ -175,6 +175,8 @@ func PlayOnce(tracer io.Writer, results io.Writer) {
 				endGameStep,
 				steps,
 			)
+
+			endGameStep.state.Players[1].Point = max(27, endGameStep.state.Players[1].Point-4)
 			fmt.Fprintf(results, "%v\t%v\t%v\n",
 				endGameStep.state.Players[0].Point,
 				endGameStep.state.Players[1].Point,
